@@ -12,3 +12,10 @@ We collected signal datasets of normal and abnormal pipelines and acoustic emiss
 
 ## Experiment
 If you wnat to train and test our model, you can execute the ```deepAUP.py``` file with MFCC feature data. The proposed DeepAUP model achieved over 99% accuracy and F1-score for all sensor datasets. With early-stopping method, DeepAUP can be rapidly performed, and because we could obtain both spatial and temporal features of pipeline signal data using the DeepAUP combined model that extracts spatial features through CNN and learns temporal features through Bi-LSTM. This approach is expected to improve the detection of pipeline abnormalities.
+
+## Contribution
+Minyoung Lee* Eunil Park**
+
+*: First Author
+
+**: Corresponding Author
